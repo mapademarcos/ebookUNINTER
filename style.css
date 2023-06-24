@@ -15,3 +15,17 @@
     padding: 20px;
     box-sizing: border-box;
 }
+
+/* Dispositivos móveis */
+@media (max-width: 768px) {
+    .book {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .page {
+        padding: 10px;
+    }
+}
